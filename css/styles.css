@@ -1143,8 +1143,8 @@ img {
     height: 100%;
     background-color: #fff;
     z-index: 999999;
-    opacity: 0;
-    visibility: hidden;
+    /* opacity: 0;
+    visibility: hidden; */
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -1225,7 +1225,8 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #4d5ae5;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .menu-email {
@@ -1234,6 +1235,14 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-tel:hover,
+  .menu-tel:focus,
+  .menu-email:hover,
+  .menu-email:focus {
+    color: #4d5ae5;
   }
 
   .menu-logo-list {
