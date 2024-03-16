@@ -120,7 +120,8 @@ img {
   margin-left: auto;
 }
 .address-list {
-  display: block;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
 }
 .address-link {
